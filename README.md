@@ -7,3 +7,4 @@ docker build -t icinga2/master .
 
 docker run -h icinga.master -d -p 10022:22 -p 8080:80 icinga2/master
 
+Icinga2 classic  can be accessed at http://localhost:8080/icinga2-classicui/
